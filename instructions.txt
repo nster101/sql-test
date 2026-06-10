@@ -1,0 +1,15 @@
+Good Morning Naeem. 
+
+Okay , I will be sending you a .bak file. 
+
+You need to complete the following steps 
+
+1. Get an instance of SQL Server Express installed on your machine.
+2. Restore the .bak file to gain access to the NBA database. 
+3. Use a single TSQL query to generate the data. 
+
+I will be sending an excel with the sample set of how I want the data back as well. 
+
+Please let me know how far you get on your own! 
+
+Looking forward to hearing from you
