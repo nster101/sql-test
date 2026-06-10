@@ -1,0 +1,17 @@
+services:
+  sql-express:
+    image: mcr.microsoft.com/mssql/server:latest
+    platform: linux/amd64
+    container_name: mssql-express
+    restart: unless-stopped
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_PID=Express
+      - MSSQL_SA_PASSWORD=SuperStrongP@ssw0rd123!
+    ports:
+      - 1433:1433
+    volumes:
+      - sql-data:/var/opt/mssql
+
+volumes:
+  sql-data:
