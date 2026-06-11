@@ -1,4 +1,7 @@
-CREATE OR ALTER VIEW SummaryTable AS
+USE nba;
+GO
+
+CREATE OR ALTER VIEW dbo.SummaryTable AS
 SELECT
     G.GameID,
     HT.Name AS HomeTeam,
@@ -17,4 +20,5 @@ INNER JOIN nba.dbo.Teams AS HT
 INNER JOIN nba.dbo.Teams as AT
     ON AT.TeamID = G.AwayTeamID
 INNER JOIN nba.dbo.Players AS P
-    ON P.PlayerID = G.MVPPlayerID;
+    ON P.PlayerID = G.MVPPlayerID
+GO
