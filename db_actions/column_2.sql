@@ -1,0 +1,1 @@
+SELECT Name, Stadium FROM Teams;
