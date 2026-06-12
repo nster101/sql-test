@@ -1,7 +1,7 @@
 USE nba;
 GO
 
-CREATE OR ALTER VIEW dbo.SummaryTable AS
+CREATE VIEW dbo.SummaryTable AS
 SELECT
     G.GameID,
     HT.Name AS HomeTeam,
