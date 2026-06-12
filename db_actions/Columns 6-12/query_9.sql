@@ -65,13 +65,20 @@ SELECT
     ts.Played,
     ts.Won,
     ts.Lost,
-    bw.BiggestWin AS [Biggest Win]
+    bw.BiggestWin AS [Biggest Win],
+    bl.BiggestLoss AS [Biggest Loss]
 FROM TeamStats ts
 OUTER APPLY (
     SELECT TOP 1 CAST(TeamScore AS VARCHAR) + '-' + CAST(OppScore AS VARCHAR) AS BiggestWin FROM cte c2
     WHERE c2.TeamName = ts.TeamName AND c2.IsWin = 1
     ORDER BY c2.ScoreDiff DESC, c2.GameDate DESC
 ) bw
+OUTER APPLY (
+    SELECT TOP 1 CAST(TeamScore AS VARCHAR) + '-' + CAST(OppScore AS VARCHAR) AS BiggestLoss
+    FROM cte c2
+    WHERE c2.TeamName = ts.TeamName AND c2.IsWin = 0
+    ORDER BY c2.ScoreDiff ASC, c2.GameDate DESC
+) bl
 ORDER BY
     ts.Won DESC,
     ts.TeamName ASC;

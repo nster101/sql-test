@@ -1,7 +1,7 @@
 USE nba;
 GO
 
-CREATE VIEW dbo.SummaryTable AS
+CREATE OR ALTER VIEW dbo.SummaryTable AS
 SELECT
     G.GameID,
     HT.Name AS HomeTeam,
@@ -13,6 +13,11 @@ SELECT
     G.MVPPlayerID,
     P.Name as PlayerName,
     G.GameDateTime as Date,
+    HT.Stadium AS GameStadium,
+    IIF(HomeScore > AwayScore, 1, 0) AS HomeWin,
+    IIF(AwayScore > HomeScore, 1, 0) AS AwayWin,
+    HT.Stadium AS HomeStadium,
+    AT.Stadium AS AwayStadium,
     ABS(HomeScore-AwayScore) AS AbsDiff
 FROM nba.dbo.Games AS G
 INNER JOIN nba.dbo.Teams AS HT
