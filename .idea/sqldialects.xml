@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/db_actions/Columns 1-6/query_1.sql" dialect="TSQL" />
-    <file url="file://$PROJECT_DIR$/db_actions/Columns 1-6/query_2.sql" dialect="TSQL" />
-    <file url="file://$PROJECT_DIR$/db_actions/Columns 1-6/query_3.sql" dialect="TSQL" />
-    <file url="file://$PROJECT_DIR$/db_actions/Columns 1-6/query_4.sql" dialect="TSQL" />
-    <file url="file://$PROJECT_DIR$/db_actions/Columns 6-12/query_5.sql" dialect="TSQL" />
-    <file url="file://$PROJECT_DIR$/db_actions/Columns 6-12/query_6.sql" dialect="TSQL" />
-    <file url="file://$PROJECT_DIR$/db_actions/Columns 6-12/query_7.sql" dialect="TSQL" />
-    <file url="file://$PROJECT_DIR$/db_actions/Columns 6-12/query_8.sql" dialect="TSQL" />
-    <file url="file://$PROJECT_DIR$/db_actions/Exploration/explore.sql" dialect="TSQL" />
-    <file url="file://$PROJECT_DIR$/db_actions/Restoration/restore_db.sql" dialect="TSQL" />
-    <file url="file://$PROJECT_DIR$/db_actions/Restoration/restore_filelistonly.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/db_actions/explore.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/db_actions/query_1.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/db_actions/query_2.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/db_actions/query_3.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/db_actions/query_4.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/db_actions/query_5.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/db_actions/query_6.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/db_actions/query_7.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/db_actions/query_8.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/db_actions/restore_db.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/db_actions/restore_filelistonly.sql" dialect="TSQL" />
     <file url="PROJECT" dialect="TSQL" />
   </component>
   <component name="SqlResolveMappings">
-    <file url="file://$PROJECT_DIR$/db_actions/Columns 6-12/query_7.sql" scope="{&quot;node&quot;:{  &quot;@negative&quot;:&quot;1&quot;,  &quot;group&quot;:{   &quot;@kind&quot;:&quot;root&quot;,   &quot;node&quot;:{    &quot;@negative&quot;:&quot;1&quot;   }  } }}" />
-    <file url="file://$PROJECT_DIR$/db_actions/Columns 6-12/query_8.sql" scope="{&quot;node&quot;:{  &quot;@negative&quot;:&quot;1&quot;,  &quot;group&quot;:{   &quot;@kind&quot;:&quot;root&quot;,   &quot;node&quot;:{    &quot;@negative&quot;:&quot;1&quot;   }  } }}" />
+    <file url="file://$PROJECT_DIR$/db_actions/query_7.sql" scope="{&quot;node&quot;:{  &quot;@negative&quot;:&quot;1&quot;,  &quot;group&quot;:{   &quot;@kind&quot;:&quot;root&quot;,   &quot;node&quot;:{    &quot;@negative&quot;:&quot;1&quot;   }  } }}" />
+    <file url="file://$PROJECT_DIR$/db_actions/query_8.sql" scope="{&quot;node&quot;:{  &quot;@negative&quot;:&quot;1&quot;,  &quot;group&quot;:{   &quot;@kind&quot;:&quot;root&quot;,   &quot;node&quot;:{    &quot;@negative&quot;:&quot;1&quot;   }  } }}" />
     <file url="PROJECT" scope="{&quot;node&quot;:{  &quot;@negative&quot;:&quot;1&quot;,  &quot;group&quot;:{   &quot;@kind&quot;:&quot;root&quot;,   &quot;node&quot;:{    &quot;@negative&quot;:&quot;1&quot;   }  } }}" />
   </component>
 </project>
