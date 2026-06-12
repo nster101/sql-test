@@ -57,8 +57,3 @@ SELECT
 
 GROUP BY cte.TeamID, cte.Name, cte.Stadium
 ORDER BY [Won] DESC;
---         IIF(HomeWin = 1, CONCAT(HomeScore,'-', AwayScore), -1),
---         IIF(AwayWin = 1, CONCAT(AwayScore, '-', HomeScore), -1)
---         MAX(IIF(HomeWin = 1, HomeScore, 0), IIF(AwayWin = 1, AwayScore)),
---         MAX(IIF(HomeWin = 0, HomeScore, 0), IIF(AwayWin = 0, AwayScore)),
---     CONCAT(cte.WinScore, '-', cte.LossScore) AS [Score]
