@@ -1,0 +1,65 @@
+GameID,HomeTeam,AwayTeam,HomeScore,AwayScore,HomeTeamID,AwayTeamID,MVPPlayerID,PlayerName,Date,AbsDiff
+1,Denver Nuggets,Miami Heat,111,98,1,2,1,Ty Lawson,2013-11-01 00:00:00.000,13
+2,Miami Heat,Toronto Raptors,90,92,2,3,3,Labron James,2013-11-02 00:00:00.000,2
+3,Toronto Raptors,San Antonio Spurs,86,96,3,4,5,DeMar DeRozan,2013-11-03 00:00:00.000,10
+4,San Antonio Spurs,Indiana Pacers,78,101,4,5,8,Tony Parker,2013-11-04 00:00:00.000,23
+5,Indiana Pacers,Oklahoma City Thunder,98,112,5,6,10,Roy Hibbert,2013-11-05 00:00:00.000,14
+6,Oklahoma City Thunder,Houston Rockets,92,81,6,7,12,Russell Westbrook,2013-11-06 00:00:00.000,11
+7,Houston Rockets,Chicago Bulls,96,85,7,8,14,Chandler Parsons,2013-11-07 00:00:00.000,11
+8,Chicago Bulls,Denver Nuggets,101,84,8,1,16,Taj Gibson,2013-11-08 00:00:00.000,17
+9,Denver Nuggets,Toronto Raptors,112,83,1,3,1,Ty Lawson,2013-11-09 00:00:00.000,29
+10,Miami Heat,San Antonio Spurs,81,98,2,4,3,Labron James,2013-11-10 00:00:00.000,17
+11,Toronto Raptors,Indiana Pacers,85,92,3,5,5,DeMar DeRozan,2013-11-11 00:00:00.000,7
+12,San Antonio Spurs,Oklahoma City Thunder,84,96,4,6,7,Tim Duncan,2013-11-12 00:00:00.000,12
+13,Indiana Pacers,Houston Rockets,83,101,5,7,9,Paul George,2013-11-13 00:00:00.000,18
+14,Oklahoma City Thunder,Chicago Bulls,81,112,6,8,15,Carlos Boozer,2013-11-14 00:00:00.000,31
+15,Houston Rockets,Denver Nuggets,80,81,7,1,1,Ty Lawson,2013-11-15 00:00:00.000,1
+16,Chicago Bulls,Miami Heat,98,85,8,2,16,Taj Gibson,2013-11-16 00:00:00.000,13
+17,Denver Nuggets,San Antonio Spurs,99,84,1,4,1,Ty Lawson,2013-11-17 00:00:00.000,15
+18,Miami Heat,Indiana Pacers,115,83,2,5,4,Chris Bosh,2013-11-18 00:00:00.000,32
+19,Toronto Raptors,Oklahoma City Thunder,114,98,3,6,6,Kyle Lowry,2013-11-19 00:00:00.000,16
+20,San Antonio Spurs,Houston Rockets,102,92,4,7,8,Tony Parker,2013-11-20 00:00:00.000,10
+21,Indiana Pacers,Chicago Bulls,111,96,5,8,10,Roy Hibbert,2013-11-21 00:00:00.000,15
+22,Oklahoma City Thunder,Denver Nuggets,90,101,6,1,1,Ty Lawson,2013-11-22 00:00:00.000,11
+23,Houston Rockets,Miami Heat,86,112,7,2,3,Labron James,2013-11-23 00:00:00.000,26
+24,Chicago Bulls,Toronto Raptors,78,81,8,3,15,Carlos Boozer,2013-11-24 00:00:00.000,3
+25,Denver Nuggets,Indiana Pacers,98,85,1,5,1,Ty Lawson,2013-11-25 00:00:00.000,13
+26,Miami Heat,Oklahoma City Thunder,92,84,2,6,12,Russell Westbrook,2013-11-26 00:00:00.000,8
+27,Toronto Raptors,Houston Rockets,96,83,3,7,5,DeMar DeRozan,2013-11-27 00:00:00.000,13
+28,San Antonio Spurs,Chicago Bulls,101,98,4,8,8,Tony Parker,2013-11-28 00:00:00.000,3
+29,Indiana Pacers,Denver Nuggets,112,92,5,1,1,Ty Lawson,2013-11-29 00:00:00.000,20
+30,Oklahoma City Thunder,Miami Heat,81,96,6,2,3,Labron James,2013-11-30 00:00:00.000,15
+31,Houston Rockets,Toronto Raptors,85,101,7,3,14,Chandler Parsons,2013-12-01 00:00:00.000,16
+32,Chicago Bulls,San Antonio Spurs,84,112,8,4,15,Carlos Boozer,2013-12-02 00:00:00.000,28
+33,Denver Nuggets,Miami Heat,83,81,1,2,1,Ty Lawson,2013-12-03 00:00:00.000,2
+34,Miami Heat,Toronto Raptors,81,85,2,3,3,Labron James,2013-12-04 00:00:00.000,4
+35,Toronto Raptors,San Antonio Spurs,80,84,3,4,6,Kyle Lowry,2013-12-05 00:00:00.000,4
+36,San Antonio Spurs,Indiana Pacers,98,83,4,5,8,Tony Parker,2013-12-06 00:00:00.000,15
+37,Indiana Pacers,Oklahoma City Thunder,99,98,5,6,9,Paul George,2013-12-07 00:00:00.000,1
+38,Oklahoma City Thunder,Houston Rockets,115,92,6,7,12,Russell Westbrook,2013-12-08 00:00:00.000,23
+39,Houston Rockets,Chicago Bulls,114,96,7,8,14,Chandler Parsons,2013-12-09 00:00:00.000,18
+40,Chicago Bulls,Denver Nuggets,102,101,8,1,1,Ty Lawson,2013-12-10 00:00:00.000,1
+41,Denver Nuggets,Toronto Raptors,111,112,1,3,2,Kevin Faried,2013-12-11 00:00:00.000,1
+42,Miami Heat,San Antonio Spurs,90,81,2,4,4,Chris Bosh,2013-12-12 00:00:00.000,9
+43,Toronto Raptors,Indiana Pacers,86,85,3,5,6,Kyle Lowry,2013-12-13 00:00:00.000,1
+44,San Antonio Spurs,Oklahoma City Thunder,78,84,4,6,11,Kevin Durant,2013-12-14 00:00:00.000,6
+45,Indiana Pacers,Houston Rockets,98,83,5,7,10,Roy Hibbert,2013-12-15 00:00:00.000,15
+46,Oklahoma City Thunder,Chicago Bulls,92,98,6,8,16,Taj Gibson,2013-12-16 00:00:00.000,6
+47,Houston Rockets,Denver Nuggets,96,92,7,1,1,Ty Lawson,2013-12-17 00:00:00.000,4
+48,Chicago Bulls,Miami Heat,101,96,8,2,16,Taj Gibson,2013-12-18 00:00:00.000,5
+49,Denver Nuggets,San Antonio Spurs,112,101,1,4,2,Kevin Faried,2013-12-19 00:00:00.000,11
+50,Miami Heat,Indiana Pacers,81,112,2,5,9,Paul George,2013-12-20 00:00:00.000,31
+51,Toronto Raptors,Oklahoma City Thunder,85,81,3,6,5,DeMar DeRozan,2013-12-21 00:00:00.000,4
+52,San Antonio Spurs,Houston Rockets,84,85,4,7,7,Tim Duncan,2013-12-22 00:00:00.000,1
+53,Indiana Pacers,Chicago Bulls,83,84,5,8,16,Taj Gibson,2013-12-23 00:00:00.000,1
+54,Oklahoma City Thunder,Denver Nuggets,81,83,6,1,1,Ty Lawson,2013-12-24 00:00:00.000,2
+55,Houston Rockets,Miami Heat,80,98,7,2,3,Labron James,2013-12-25 00:00:00.000,18
+56,Chicago Bulls,Toronto Raptors,98,92,8,3,15,Carlos Boozer,2013-12-26 00:00:00.000,6
+57,Denver Nuggets,Indiana Pacers,99,96,1,5,9,Paul George,2013-12-27 00:00:00.000,3
+58,Miami Heat,Oklahoma City Thunder,115,101,2,6,3,Labron James,2013-12-28 00:00:00.000,14
+59,Toronto Raptors,Houston Rockets,114,112,3,7,13,James Harden,2013-12-29 00:00:00.000,2
+60,San Antonio Spurs,Chicago Bulls,102,81,4,8,15,Carlos Boozer,2013-12-30 00:00:00.000,21
+61,Indiana Pacers,Denver Nuggets,78,85,5,1,1,Ty Lawson,2013-12-31 00:00:00.000,7
+62,Oklahoma City Thunder,Miami Heat,76,84,6,2,3,Labron James,2014-01-01 00:00:00.000,8
+63,Houston Rockets,Toronto Raptors,79,83,7,3,13,James Harden,2014-01-02 00:00:00.000,4
+64,Chicago Bulls,San Antonio Spurs,68,116,8,4,7,Tim Duncan,2014-01-03 00:00:00.000,48

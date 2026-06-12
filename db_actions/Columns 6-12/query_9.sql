@@ -63,10 +63,15 @@ SELECT
     ts.TeamName AS Name,
     ts.Stadium,
     ts.Played,
+    ts.PlayedHome as [Played Home],
+    ts.PlayedAway AS [Played Away],
     ts.Won,
     ts.Lost,
     bw.BiggestWin AS [Biggest Win],
-    bl.BiggestLoss AS [Biggest Loss]
+    bl.BiggestLoss AS [Biggest Loss],
+    lg.LastGameStadium AS [Last Game Stadium],
+    CONVERT(VARCHAR(19), lg.LastGameDate, 120) AS [Last Game Date],
+    mvp.MVPPlayer AS MVP
 FROM TeamStats ts
 OUTER APPLY (
     SELECT TOP 1 CAST(TeamScore AS VARCHAR) + '-' + CAST(OppScore AS VARCHAR) AS BiggestWin FROM cte c2
@@ -79,6 +84,20 @@ OUTER APPLY (
     WHERE c2.TeamName = ts.TeamName AND c2.IsWin = 0
     ORDER BY c2.ScoreDiff ASC, c2.GameDate DESC
 ) bl
+
+OUTER APPLY (
+    SELECT TOP 1 GameStadium AS LastGameStadium, GameDate AS LastGameDate
+    FROM cte c2
+    WHERE c2.TeamName = ts.TeamName
+    ORDER BY c2.GameDate DESC
+) lg
+OUTER APPLY (
+    SELECT TOP 1 GameMVP AS MVPPlayer
+    FROM cte c2
+    WHERE c2.TeamName = ts.TeamName AND c2.IsWin = 1
+    GROUP BY c2.GameMVP
+    ORDER BY COUNT(*) DESC, c2.GameMVP ASC
+) mvp
 ORDER BY
     ts.Won DESC,
     ts.TeamName ASC;
